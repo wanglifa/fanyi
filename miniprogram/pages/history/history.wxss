@@ -1,0 +1,35 @@
+.history-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 26rpx;
+  color: #8995a1;
+  padding: 20rpx 40rpx;
+}
+.item-wrapper {
+  background: #fff;
+  padding: 20rpx 40rpx;
+}
+.item-wrapper .item{
+  border-bottom: 1px solid #F5F5F5;
+  padding: 16rpx;
+}
+.item-wrapper .item:first-child{
+  padding-top: 0;
+}
+.item-wrapper .item:last-child{
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.item .query {
+  color: #666;
+}
+.item .result{
+  color: #999;
+}
+
+.item .result {
+  margin-top: 12rpx;
+}

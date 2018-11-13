@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/history/history",
+    "pages/change/change"
+  ],
+  "window": {
+    "backgroundColor": "#333",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#EF594D",
+    "navigationBarTitleText": "立发翻译",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "position": "top",
+    "color": "#999",
+    "selectedColor": "#EF594D",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "翻译"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "text": "历史"
+      }
+    ]
+  }
+}

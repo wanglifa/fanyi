@@ -1,0 +1,71 @@
+/**index.wxss**/
+
+.change{
+  color: #8995a1;
+  font-size: 30rpx;
+  padding: 20rpx 30rpx;
+  display: flex;
+  align-items: center;
+  /* background: #fefbfb; */
+  border-top: 1px solid #F7F7F7;
+}
+.change .icon-right{
+  color: #888;
+}
+.change .icon-down{
+  color: #8995a1;
+  font-size: 26rpx;
+}
+.input-area{
+  position: relative;
+}
+.textarea-wrap{
+  background: #fff;
+  border-bottom: 1px solid #F7F7F7;
+}
+.input-area textarea{
+  background: #fff;
+  padding: 30rpx 0 30rpx 30rpx;
+  width: calc(100% -48rpx);
+  margin: 0;
+  box-sizing: border-box;
+  color: #666;
+}
+.input-area .icon-close{
+  position: absolute;
+  right: 12rpx;
+  top: 20rpx;
+  z-index: 100;
+  font-size: 60rpx;
+  color: #888;
+}
+.input-area .text-area{
+  min-height: 80rpx;
+  padding: 40rpx;
+  position: relative;
+}
+.input-area .text-area::before{
+  content: '';
+  border-top: 20rpx solid transparent;
+  border-bottom: 20rpx solid transparent;
+  border-right: 20rpx solid #fff;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 24rpx;
+  top: 60rpx;
+}
+.input-area .text-area .area-wrap1{
+  background: #fff;
+  min-height: 280rpx;
+}
+.input-area .text-title{
+  font-size: 30rpx;
+  color: #8995a1;
+  padding: 20rpx;
+  border-bottom: 1px solid #F5F5F5;
+}
+.input-area .text-result{
+  padding: 20rpx;
+  min-height: 60rpx;
+}
